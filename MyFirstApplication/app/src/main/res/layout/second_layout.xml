@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/tf"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="#ff0000ff"
+      app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+      app:title="中单亚索不给就送"
+      app:titleTextColor="@color/red" />
+
+  <Button
+      android:id="@+id/button_1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:shadowColor="@color/red"
+      android:shadowRadius="5.0"
+      android:text="豪杰二号->程序四号"
+      android:textColor="@color/teal_200"
+      android:textSize="25dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button_2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:shadowColor="#FF000000"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:shadowRadius="5.0"
+      android:text="芜湖二号->傻逼"
+      android:textSize="24dp"
+      android:textStyle="bold" />
+
+  <Button
+      android:id="@+id/button_3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:shadowColor="#FF00FF00"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:shadowRadius="5.0"
+      android:text="小甲鱼视频教程"
+      android:textSize="24dp"
+      android:textStyle="bold" />
+</LinearLayout>

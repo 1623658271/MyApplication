@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourActivity">
+  <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="你是傻逼吗？"
+    android:textSize="30dp"
+    android:textColor="#FF00FFFF"
+    android:textStyle="bold"
+      android:shadowColor="@color/red"
+      android:shadowRadius="3.0"
+      android:background="@color/purple_500"
+    android:layout_marginBottom="50dp"
+    android:layout_gravity="center"
+      />
+  <Button
+      android:id="@+id/btn_main_not"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+    android:text="不是"
+      android:textSize="24dp"
+      android:textStyle="bold"
+    android:layout_gravity="center"/>
+
+  </FrameLayout>

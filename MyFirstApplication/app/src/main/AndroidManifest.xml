@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myfirstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/life"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFirstApplication">
+        <activity
+            android:name=".Hello"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name=".SB"
+            android:exported="true"
+            android:label="哟，真点进来了？" />
+        <activity
+            android:name=".FourActivity"
+            android:exported="true"
+            android:label="傻逼" />
+        <activity
+            android:name=".ThirdActivity"
+            android:exported="true"
+            android:label="程序三号">
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:exported="true"
+            android:label="程序二号">
+            <intent-filter>
+                <action android:name="com.example.myfirstapplication.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:launchMode="singleTask"
+            android:name=".MainFirstActivity"
+            android:exported="true"
+            android:label="我的第一个程序">
+        </activity>
+    </application>
+
+</manifest>

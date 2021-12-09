@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/add_item1"
+    android:title="call妈妈"/>
+<item
+    android:id="@+id/add_item2"
+    android:title="call爸爸"/>
+<item
+    android:id="@+id/add_item3xd"
+    android:title="线代"/>
+<item
+    android:id="@+id/add_item4gs"
+    android:title="高数"/>
+</menu>

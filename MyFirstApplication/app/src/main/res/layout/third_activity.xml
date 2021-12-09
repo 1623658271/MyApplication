@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/tf2"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="#ff0000ff"
+      app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+      app:title="辅助亚索不给就送"
+      app:titleTextColor="@color/red" />
+  <Button
+      android:id = "@+id/button_4"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="线代-高数"
+      android:textSize="24dp"
+      android:shadowColor="#FF00FF00"
+      android:shadowRadius="5.0"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:textStyle="bold"/>
+  <Button
+      android:id = "@+id/button_5"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="java视频系列教程"
+      android:textSize="24dp"
+      android:shadowColor="#FF00FF00"
+      android:shadowRadius="5.0"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:textStyle="bold"/>
+  <Button
+      android:id = "@+id/button_6"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="music音乐课程"
+      android:textSize="24dp"
+      android:shadowColor="#FF00FF00"
+      android:shadowRadius="5.0"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:textStyle="bold"/>
+  <Button
+      android:id = "@+id/button_3"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Android"
+      android:textAllCaps="false"
+      android:textSize="24dp"
+      android:shadowColor="#FF00FF00"
+      android:shadowRadius="5.0"
+      android:shadowDx="5.0"
+      android:shadowDy="1.0"
+      android:textStyle="bold"/>
+  </LinearLayout>

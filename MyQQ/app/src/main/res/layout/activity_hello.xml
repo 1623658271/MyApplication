@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="150dp"
+    android:background="@mipmap/number1"
+    tools:context=".Hello_activity">
+
+    <TextView
+        android:layout_width="60sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:text="欢迎"
+        android:textColor="#ffffff00"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:textColor="#ff00ff00"/>
+
+    <ProgressBar
+        style= "?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/pb_upLoad"
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:max="100"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
